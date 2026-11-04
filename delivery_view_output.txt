@@ -1,0 +1,17 @@
+Original orders before creating the view:
+Order ID: 101 | Type: DELIVERY | Status: PENDING
+Order ID: 102 | Type: DINE_IN | Status: IN_PROGRESS
+Order ID: 103 | Type: DELIVERY | Status: IN_PROGRESS
+Order ID: 104 | Type: DELIVERY | Status: COMPLETED
+
+Temporary delivery view:
+Order ID: 101 | Building: Engineering | Priority: 2 | Status: PENDING
+Order ID: 103 | Building: Library | Priority: 3 | Status: IN_PROGRESS
+
+Total selected delivery orders: 2
+
+Original orders after creating the view:
+Order ID: 101 | Type: DELIVERY | Status: PENDING
+Order ID: 102 | Type: DINE_IN | Status: IN_PROGRESS
+Order ID: 103 | Type: DELIVERY | Status: IN_PROGRESS
+Order ID: 104 | Type: DELIVERY | Status: COMPLETED
